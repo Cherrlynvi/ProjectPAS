@@ -1,0 +1,95 @@
+/* about.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #555555;
+    color: #333;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: #b67d82;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0;
+    width: 97.05%;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 36px;
+    margin: 0; 
+    line-height: 1; 
+  }
+  .logo-link {
+    text-decoration: none; /* Removes underline */
+    display: inline-block; /* Ensures proper spacing */
+}
+
+.logo-link:hover .logo span:first-child {
+    color: #ffb6c1; /* Lighter pink on hover */
+    transition: color 0.3s ease;
+}
+  
+  .navigation a {
+    margin-left: 20px;
+    margin-right: 7px;
+    text-decoration: none;
+    color: #fffcfc;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 18px;
+    display: inline-block;
+  }
+  
+  .navigation a:hover {
+    color: #c5c5c5;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #555555;
+    background: url('../Images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+/* About Page */
+#about-page {
+  background-color: #555555;
+  color: #fffcfc;
+}
+
+.hero-content {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.hero-text {
+  color: #fce7f1;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.hero-text h1 {
+  color: #fffcfc;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  color: #fffcfc;
+  font-weight: bold;
+}

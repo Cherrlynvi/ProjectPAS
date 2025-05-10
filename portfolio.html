@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Portfolio</title>
+    <link rel="stylesheet" href="./CSS/portfolio.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <h1 class="logo"><span style="color:#fce7f1;font-weight:bold">Cherrlyn</span><span style="color:#fffcfc;font-weight:bold">Vi</span></h1>
+            </a>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="art-gallery">
+            <h2>My Projects</h2>
+            <h5>(And why you should buy comission from me (˵ •̀ ᴗ - ˵ ) ✧)</h5>
+            
+            <!-- CSS-Only Slider -->
+            <div class="slider-container">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                
+                <div class="slider">
+                    <div class="slide" id="slide-1">
+                        <img src="./Images/Drawing1.jpg" alt="Digital Art 1">
+                        <div class="art-description">
+                            <p>A fan-art of my favorite virtual singer, KAITO! I consider this as one of my best work, as you can see, the rendering technique on his hair and the colors chosen for it match each other perfectly.</p>
+                        </div>
+                    </div>
+                    <div class="slide" id="slide-2">
+                        <img src="./Images/Drawing2.jpg" alt="Digital Art 2">
+                        <div class="art-description">
+                            <p>A character design from a book-writing competition I did with my friends. What makes me proud of this is the way I draw the eyes and the semi-realism face.</p>
+                        </div>
+                    </div>
+                    <div class="slide" id="slide-3">
+                        <img src="./Images/Drawing3.jpg" alt="Digital Art 3">
+                        <div class="art-description">
+                            <p>A current work-in-progress, a design for my virtual persona!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-nav">
+                    <label for="slide1" class="slider-dot" id="dot1"></label>
+                    <label for="slide2" class="slider-dot" id="dot2"></label>
+                    <label for="slide3" class="slider-dot" id="dot3"></label>
+                </div>
+                
+                <div class="slider-arrows">
+        
+                    <label for="slide3" class="arrow prev" id="prev-from-1">❮</label>
+                    <label for="slide1" class="arrow prev" id="prev-from-2">❮</label>
+                    <label for="slide2" class="arrow prev" id="prev-from-3">❮</label>
+            
+                    <label for="slide2" class="arrow next" id="next-from-1">❯</label>
+                    <label for="slide3" class="arrow next" id="next-from-2">❯</label>
+                    <label for="slide1" class="arrow next" id="next-from-3">❯</label>
+                  </div>
+            </div>
+        </section>
+        <section class="see-more">
+            <div class="see-more-container">
+                <h3>See more of my art!</h3>
+                <a href="contact.html" class="art-button">Click!</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
